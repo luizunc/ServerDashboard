@@ -1,97 +1,102 @@
-# =========================
-# Dependências
-# =========================
-node_modules/
-jspm_packages/
+Corrija esse
 
-# =========================
-# Logs
-# =========================
-logs
-*.log
+﻿# Dependências
+node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
 
-# =========================
-# Builds / Output
-# =========================
+# Arquivos de build
 dist/
 build/
 .vite/
-.next/
-.nuxt/
-.out/
-.storybook-out/
-.cache/
-.parcel-cache/
-public/
-.temp/
-tmp/
-temp/
 
-# =========================
 # Variáveis de ambiente
-# =========================
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-# =========================
-# Runtime
-# =========================
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
 pids
 *.pid
 *.seed
 *.pid.lock
-sessions/
-uploads/
-public/uploads/
 
-# =========================
-# Coverage / Tests
-# =========================
+# Coverage directory usado por ferramentas como istanbul
 coverage/
 *.lcov
+
+# nyc test coverage
 .nyc_output
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript cache
 *.tsbuildinfo
 
-# =========================
-# Cache de ferramentas
-# =========================
+# Optional npm cache directory
 .npm
+
+# Optional eslint cache
 .eslintcache
+
+# Microbundle cache
 .rpt2_cache/
 .rts2_cache_cjs/
 .rts2_cache_es/
 .rts2_cache_umd/
 
-# =========================
-# Arquivos temporários
-# =========================
-*.tgz
-*.backup
-*.bak
-*.tmp
-
-# =========================
-# Histórico / Config local
-# =========================
+# Optional REPL history
 .node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
 .yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+
+# Gatsby files
+.cache/
+public
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Editor directories and files
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 
-# =========================
-# Arquivos de sistema
-# =========================
+# OS generated files
 .DS_Store
 .DS_Store?
 ._*
@@ -100,31 +105,40 @@ coverage/
 ehthumbs.db
 Thumbs.db
 
-# =========================
-# Executáveis (Windows)
-# =========================
+# Windows
 *.exe
 *.msi
 *.msm
 *.msp
 
-# =========================
-# Banco de Dados
-# =========================
+# Database
 *.sqlite
 *.sqlite3
 *.db
 
-# =========================
+# Configurações específicas do projeto
+# Arquivos de configuração sensíveis
+config/database.js
+config/nebula.js
+
+# Arquivos de backup
+*.backup
+*.bak
+*.tmp
+
+# Arquivos de sessão
+sessions/
+
+# Uploads de usuários
+uploads/
+public/uploads/
+
 # Certificados SSL
-# =========================
 *.pem
 *.key
 *.crt
 *.csr
 
-# =========================
-# Configurações específicas do projeto
-# =========================
-config/database.js
-config/nebula.js
+# Arquivos de cache específicos do projeto
+.cache/
+.temp/
