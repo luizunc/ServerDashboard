@@ -92,15 +92,15 @@ Antes de começar, certifique-se de ter instalado:
 ## 🚀 Instalação
 
 ### 1. Clone o repositório
-\`\`\`bash
+```bash
 git clone https://github.com/luizunc/ServerDashboard.git
 cd ServerDashboard
-\`\`\`
+```
 
 ### 2. Instale as dependências
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 ### 3. Configure o banco de dados
 Crie um banco de dados MySQL e configure as variáveis de ambiente (veja a seção [Configuração](#-configuração)).
@@ -109,9 +109,9 @@ Crie um banco de dados MySQL e configure as variáveis de ambiente (veja a seç�
 
 ### Variáveis de Ambiente
 
-Crie um arquivo \`.env\` na raiz do projeto:
+Crie um arquivo `.env` na raiz do projeto:
 
-\`\`\`env
+```env
 # Configurações do Servidor
 PORT=5000
 
@@ -121,14 +121,14 @@ DB_PORT=3306
 DB_USER=seu_usuario
 DB_PASS=sua_senha
 DB_NAME=nome_db
-\`\`\`
+```
 
 ### Configuração do MySQL
 
 1. Crie um banco de dados:
-\`\`\`sql
+```sql
 CREATE DATABASE nome_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-\`\`\`
+```
 
 2. O sistema criará automaticamente as tabelas necessárias na primeira execução.
 
@@ -138,23 +138,23 @@ CREATE DATABASE nome_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 Para executar em modo de desenvolvimento:
 
-\`\`\`bash
+```bash
 # Executa tanto o servidor quanto o cliente
 npm run dev
 
 # Ou execute separadamente:
 npm run server  # Backend na porta 5000
 npm run client  # Frontend na porta 3000
-\`\`\`
+```
 
 ### Produção
 
 Para build de produção:
 
-\`\`\`bash
+```bash
 npm run build
 npm run preview
-\`\`\`
+```
 
 ### Acesso
 
@@ -165,36 +165,36 @@ npm run preview
 ## 🔌 API Endpoints
 
 ### Health Check
-\`\`\`http
+```http
 GET /api/health
-\`\`\`
+```
 
 ### Jogadores
-\`\`\`http
+```http
 GET    /api/players      # Listar todos os jogadores
 GET    /api/players/:id  # Obter jogador específico
 POST   /api/players      # Criar novo jogador
 PUT    /api/players/:id  # Atualizar jogador
 DELETE /api/players/:id  # Remover jogador
-\`\`\`
+```
 
 ### Grupos
-\`\`\`http
+```http
 GET    /api/groups      # Listar todos os grupos
 GET    /api/groups/:id  # Obter grupo específico
 POST   /api/groups      # Criar novo grupo
 PUT    /api/groups/:id  # Atualizar grupo
 DELETE /api/groups/:id  # Remover grupo
-\`\`\`
+```
 
 ### Mensagens
-\`\`\`http
+```http
 GET    /api/messages      # Listar todas as mensagens
 GET    /api/messages/:id  # Obter mensagem específica
 POST   /api/messages      # Criar nova mensagem
 PUT    /api/messages/:id  # Atualizar mensagem
 DELETE /api/messages/:id  # Remover mensagem
-\`\`\`
+```
 
 ## 📁 Estrutura do Projeto
 
@@ -254,6 +254,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 Para suporte e dúvidas:  
 - Abra uma [issue](https://github.com/luizunc/ServerDashboard/issues)  
 - Entre em contato: **eduarluiz21@gmail.com**  
+
 
 
 
