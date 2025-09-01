@@ -254,3 +254,4 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 Para suporte e dúvidas:  
 - Abra uma [issue](https://github.com/luizunc/ServerDashboard/issues)  
 - Entre em contato: **eduarluiz21@gmail.com**  
+
