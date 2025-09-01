@@ -198,7 +198,7 @@ DELETE /api/messages/:id  # Remover mensagem
 
 ## 📁 Estrutura do Projeto
 
-\`\`\`plaintext
+```plaintext
 ServerDashboard/
 ├── 📁 src/                    # Código fonte do frontend
 │   ├── 📁 components/         # Componentes React reutilizáveis
@@ -217,7 +217,7 @@ ServerDashboard/
 ├── package.json               # Configurações do projeto
 ├── vite.config.js             # Configuração do Vite
 └── README.md                  # Este arquivo
-\`\`\`
+```
 
 ## 🤝 Contribuição
 
@@ -254,5 +254,6 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 Para suporte e dúvidas:  
 - Abra uma [issue](https://github.com/luizunc/ServerDashboard/issues)  
 - Entre em contato: **eduarluiz21@gmail.com**  
+
 
 
