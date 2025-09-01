@@ -1,4 +1,4 @@
-﻿# 🎮 HYPEMC Dashboard - Minecraft Server Management
+﻿# 🎮 Dashboard - Minecraft Server Management
 
 [![Version](https://img.shields.io/badge/version-0.1-blue.svg)](https://github.com/eduzp/hypemc-dashboard)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
@@ -261,5 +261,6 @@ Para suporte e dúvidas:
 - Entre em contato: [eduarluiz21@gmail.com]
 
 ---
+
 
 
