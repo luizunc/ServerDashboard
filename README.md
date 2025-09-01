@@ -90,13 +90,13 @@ Antes de começar, certifique-se de ter instalado:
 ## 🚀 Instalação
 
 ### 1. Clone o repositório
-\\\ash
+\\\Bash
 git clone https://github.com/eduzp/hypemc-dashboard.git
 cd hypemc-dashboard
 \\\
 
 ### 2. Instale as dependências
-\\\ash
+\\\Bash
 npm install
 \\\
 
@@ -258,9 +258,7 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 Para suporte e dúvidas:
 - Abra uma [issue](https://github.com/eduzp/hypemc-dashboard/issues)
-- Entre em contato: [seu-email@exemplo.com]
+- Entre em contato: [eduarluiz21@gmail.com]
 
 ---
-
-*Desenvolvido com ❤️ para a comunidade Minecraft*
 
